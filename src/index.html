@@ -8,6 +8,12 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <app-root></app-root>
+  <nav>
+    <ul>
+      <li><a routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page">Home</a></li>
+      <li><a routerLink="/contact" routerLinkActive="active" ariaCurrentWhenActive="page">Home</a></li>
+    </ul>
+  </nav>
+  <router-outlet></router-outlet>
 </body>
 </html>
