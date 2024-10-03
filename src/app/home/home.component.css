@@ -1,0 +1,58 @@
+img {
+  width: 10rem;
+}
+
+#body {
+  margin-top: 60px;
+  padding: 2rem;
+}
+
+#heading {
+  display: flex;
+}
+
+#heading,
+#training,
+#career,
+#skills {
+  margin-bottom: 2rem;
+}
+
+#info {
+  padding: 1rem 2rem;
+}
+
+.location {
+  color: #888;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.card-title {
+  margin-bottom: 0;
+}
+
+.card {
+  margin-bottom: 1rem;
+}
+
+.fs-5 {
+  margin-bottom: 0;
+}
+
+#bar {
+  border: darkgray solid 1px;
+  background-color: white;
+  height: 1rem;
+  width: 100%;
+}
+
+#bar div {
+  background-color: lightseagreen;
+  height: 100%;
+}
+
+#skills div,
+#languages div {
+  margin-bottom: 1rem;
+}
