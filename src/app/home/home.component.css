@@ -44,7 +44,7 @@ img {
   border: darkgray solid 1px;
   background-color: white;
   height: 1rem;
-  width: 100%;
+  width: 50%;
 }
 
 #bar div {
@@ -55,4 +55,10 @@ img {
 #skills div,
 #languages div {
   margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  #bar {
+    width: 100%;
+  }
 }
